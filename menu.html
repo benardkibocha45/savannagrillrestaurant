@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>SG Restaurant Two Rivers Menu</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&family=Pacifico&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container-xxl bg-white p-0">
+        <!-- Spinner Start -->
+        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+
+        <!-- Navbar & Hero Start -->
+        <div class="container-xxl position-relative p-0">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-4 px-lg-5 py-3 py-lg-0">
+                <a href="index.html" class="navbar-brand p-0">
+                    <h1 class="text-primary m-0"><i class="fa fa-utensils me-3"></i>SG Restaurant</h1>
+                    <!-- <img src="img/logo.png" alt="Logo"> -->
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="fa fa-bars"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto py-0 pe-4">
+                        <a href="index.html" class="nav-item nav-link">Home</a>
+                        <a href="about.html" class="nav-item nav-link">About</a>
+                       
+                        <a href="menu.html" class="nav-item nav-link active">Menu</a>
+                     
+                        <a href="contact.html" class="nav-item nav-link">Contact</a>
+                    </div>
+                    <a href="booking.html" class="btn btn-primary py-2 px-4">Book A Table</a>
+                </div>
+            </nav>
+
+            <div class="container-xxl py-5 bg-dark hero-header mb-5">
+                <div class="container text-center my-5 pt-5 pb-4">
+                    <h1 class="display-3 text-white mb-3 animated slideInDown">Food Menu</h1>
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb justify-content-center text-uppercase">
+                            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                            <li class="breadcrumb-item"><a href="contact.html">Contact Us</a></li>
+                            <li class="breadcrumb-item text-white active" aria-current="page">Menu</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <!-- Navbar & Hero End -->
+
+
+        <!-- Menu Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                    <h5 class="section-title ff-secondary text-center text-primary fw-normal">Food Menu</h5>
+                    <h1 class="mb-5">Most Popular Items</h1>
+                </div>
+                <div class="tab-class text-center wow fadeInUp" data-wow-delay="0.1s">
+                    <ul class="nav nav-pills d-inline-flex justify-content-center border-bottom mb-5">
+                        <li class="nav-item">
+                            <a class="d-flex align-items-center text-start mx-3 ms-0 pb-3 active" data-bs-toggle="pill" href="#tab-1">
+                                <i class="fa fa-coffee fa-2x text-primary"></i>
+                                <div class="ps-3">
+                                    <small class="text-body">Popular</small>
+                                    <h6 class="mt-n1 mb-0">Breakfast</h6>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="d-flex align-items-center text-start mx-3 pb-3" data-bs-toggle="pill" href="#tab-2">
+                                <i class="fa fa-hamburger fa-2x text-primary"></i>
+                                <div class="ps-3">
+                                    <small class="text-body">Special</small>
+                                    <h6 class="mt-n1 mb-0">Launch</h6>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="d-flex align-items-center text-start mx-3 me-0 pb-3" data-bs-toggle="pill" href="#tab-3">
+                                <i class="fa fa-utensils fa-2x text-primary"></i>
+                                <div class="ps-3">
+                                    <small class="text-body">Lovely</small>
+                                    <h6 class="mt-n1 mb-0">Dinner</h6>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="tab-content">
+                        <div id="tab-1" class="tab-pane fade show p-0 active">
+                           <div class="row g-4">
+    <div class="col-lg-6">
+        <div class="d-flex align-items-center">
+            <img class="flex-shrink-0 img-fluid rounded" src="img/Mandazi & Chai.jpg" alt="" style="height: 80px; width: 80px;">
+            <div class="w-100 d-flex flex-column text-start ps-4">
+                <h5 class="d-flex justify-content-between border-bottom pb-2">
+                    <span>Mandazi & Chai</span>
+                    <span class="text-primary">Ksh 70</span>
+                </h5>
+                <small class="fst-italic">Fluffy Kenyan mandazi served with a hot cup of spiced tea</small>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-6">
+        <div class="d-flex align-items-center">
+            <img class="flex-shrink-0 img-fluid rounded" src="img/Chapati & Beans.jpg" alt="" style="height: 80px; width: 80px;">
+            <div class="w-100 d-flex flex-column text-start ps-4">
+                <h5 class="d-flex justify-content-between border-bottom pb-2">
+                    <span>Chapati & Beans</span>
+                    <span class="text-primary">Ksh 100</span>
+                </h5>
+                <small class="fst-italic">Soft chapati paired with spicy fried beans</small>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-6">
+        <div class="d-flex align-items-center">
+            <img class="flex-shrink-0 img-fluid rounded" src="img/Samosa & Juice.jfif" alt="" style="height: 80px; width: 80px;">
+            <div class="w-100 d-flex flex-column text-start ps-4">
+                <h5 class="d-flex justify-content-between border-bottom pb-2">
+                    <span>Samosa & Juice</span>
+                    <span class="text-primary">Ksh 90</span>
+                </h5>
+                <small class="fst-italic">Two beef samosas with your choice of fresh fruit juice</small>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-6">
+        <div class="d-flex align-items-center">
+            <img class="flex-shrink-0 img-fluid rounded" src="img/Uji (Porridge).jpg" alt="" style="height: 80px; width: 80px;">
+            <div class="w-100 d-flex flex-column text-start ps-4">
+                <h5 class="d-flex justify-content-between border-bottom pb-2">
+                    <span>Uji (Porridge)</span>
+                    <span class="text-primary">Ksh 60</span>
+                </h5>
+                <small class="fst-italic">Warm millet or sorghum porridge served with a dash of honey</small>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-6">
+        <div class="d-flex align-items-center">
+            <img class="flex-shrink-0 img-fluid rounded" src="img/Eggs & Toast.jfif" alt="" style="height: 80px; width: 80px;">
+            <div class="w-100 d-flex flex-column text-start ps-4">
+                <h5 class="d-flex justify-content-between border-bottom pb-2">
+                    <span>Eggs & Toast</span>
+                    <span class="text-primary">Ksh 120</span>
+                </h5>
+                <small class="fst-italic">Two eggs (fried or scrambled) with buttered toast</small>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-6">
+        <div class="d-flex align-items-center">
+            <img class="flex-shrink-0 img-fluid rounded" src="img/Fruit Salad Bowl.jfif" alt="" style="height: 80px; width: 80px;">
+            <div class="w-100 d-flex flex-column text-start ps-4">
+                <h5 class="d-flex justify-content-between border-bottom pb-2">
+                    <span>Fruit Salad Bowl</span>
+                    <span class="text-primary">Ksh 150</span>
+                </h5>
+                <small class="fst-italic">Freshly chopped seasonal fruits with a mint garnish</small>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-6">
+        <div class="d-flex align-items-center">
+            <img class="flex-shrink-0 img-fluid rounded" src="img/menu-7.jpg" alt="" style="height: 80px; width: 80px;">
+            <div class="w-100 d-flex flex-column text-start ps-4">
+                <h5 class="d-flex justify-content-between border-bottom pb-2">
+                    <span>French Toast & Tea</span>
+                    <span class="text-primary">Ksh 130</span>
+                </h5>
+                <small class="fst-italic">Golden French toast with a side of hot Kenyan tea</small>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-6">
+        <div class="d-flex align-items-center">
+            <img class="flex-shrink-0 img-fluid rounded" src="img/Pancakes & Syrup.jfif" alt="" style="height: 80px; width: 80px;">
+            <div class="w-100 d-flex flex-column text-start ps-4">
+                <h5 class="d-flex justify-content-between border-bottom pb-2">
+                    <span>Pancakes & Syrup</span>
+                    <span class="text-primary">Ksh 140</span>
+                </h5>
+                <small class="fst-italic">Three fluffy pancakes served with honey or syrup</small>
+            </div>
+        </div>
+    </div>
+</div>
+
+                        </div>
+                        <div id="tab-2" class="tab-pane fade show p-0">
+                            <div class="row g-4">
+    <div class="col-lg-6">
+        <div class="d-flex align-items-center">
+            <img class="flex-shrink-0 img-fluid rounded" src="img/Ugali with Beef Stew.jfif" alt="" style="width: 80px;">
+            <div class="w-100 d-flex flex-column text-start ps-4">
+                <h5 class="d-flex justify-content-between border-bottom pb-2">
+                    <span>Ugali with Beef Stew</span>
+                    <span class="text-primary">Ksh 250</span>
+                </h5>
+                <small class="fst-italic">Traditional maize meal served with juicy beef stew</small>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-6">
+        <div class="d-flex align-items-center">
+            <img class="flex-shrink-0 img-fluid rounded" src="img/Fried Tilapia with Ugali.jfif" alt="" style="width: 80px;">
+            <div class="w-100 d-flex flex-column text-start ps-4">
+                <h5 class="d-flex justify-content-between border-bottom pb-2">
+                    <span>Fried Tilapia with Ugali</span>
+                    <span class="text-primary">Ksh 350</span>
+                </h5>
+                <small class="fst-italic">Whole fried fish served with ugali and kachumbari</small>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-6">
+        <div class="d-flex align-items-center">
+            <img class="flex-shrink-0 img-fluid rounded" src="img/menu-3.jpg" alt="" style="width: 80px;">
+            <div class="w-100 d-flex flex-column text-start ps-4">
+                <h5 class="d-flex justify-content-between border-bottom pb-2">
+                    <span>Chapati with Ndengu</span>
+                    <span class="text-primary">Ksh 200</span>
+                </h5>
+                <small class="fst-italic">Soft chapati served with green grams in stew</small>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-6">
+        <div class="d-flex align-items-center">
+            <img class="flex-shrink-0 img-fluid rounded" src="img/menu-4.jpg" alt="" style="width: 80px;">
+            <div class="w-100 d-flex flex-column text-start ps-4">
+                <h5 class="d-flex justify-content-between border-bottom pb-2">
+                    <span>Matumbo with Rice</span>
+                    <span class="text-primary">Ksh 220</span>
+                </h5>
+                <small class="fst-italic">Stewed tripe served with fluffy white rice</small>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-6">
+        <div class="d-flex align-items-center">
+            <img class="flex-shrink-0 img-fluid rounded" src="img/menu-5.jpg" alt="" style="width: 80px;">
+            <div class="w-100 d-flex flex-column text-start ps-4">
+                <h5 class="d-flex justify-content-between border-bottom pb-2">
+                    <span>Githeri Special</span>
+                    <span class="text-primary">Ksh 180</span>
+                </h5>
+                <small class="fst-italic">Kenyan mix of maize and beans with vegetables</small>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-6">
+        <div class="d-flex align-items-center">
+            <img class="flex-shrink-0 img-fluid rounded" src="img/menu-6.jpg" alt="" style="width: 80px;">
+            <div class="w-100 d-flex flex-column text-start ps-4">
+                <h5 class="d-flex justify-content-between border-bottom pb-2">
+                    <span>Pilau with Kachumbari</span>
+                    <span class="text-primary">Ksh 300</span>
+                </h5>
+                <small class="fst-italic">Spiced rice cooked with beef, served with fresh salad</small>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-6">
+        <div class="d-flex align-items-center">
+            <img class="flex-shrink-0 img-fluid rounded" src="img/menu-7.jpg" alt="" style="width: 80px;">
+            <div class="w-100 d-flex flex-column text-start ps-4">
+                <h5 class="d-flex justify-content-between border-bottom pb-2">
+                    <span>Nyama Choma with Ugali</span>
+                    <span class="text-primary">Ksh 500</span>
+                </h5>
+                <small class="fst-italic">Grilled beef served with ugali and greens</small>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-6">
+        <div class="d-flex align-items-center">
+            <img class="flex-shrink-0 img-fluid rounded" src="img/menu-8.jpg" alt="" style="width: 80px;">
+            <div class="w-100 d-flex flex-column text-start ps-4">
+                <h5 class="d-flex justify-content-between border-bottom pb-2">
+                    <span>Beans and Chapati</span>
+                    <span class="text-primary">Ksh 190</span>
+                </h5>
+                <small class="fst-italic">Deliciously cooked beans with soft chapatis</small>
+            </div>
+        </div>
+    </div>
+</div>
+
+                        </div>
+                        <div id="tab-3" class="tab-pane fade show p-0">
+                            <div class="row g-4">
+    <div class="col-lg-6">
+        <div class="d-flex align-items-center">
+            <img class="flex-shrink-0 img-fluid rounded" src="img/menu-1.jpg" alt="" style="width: 80px;">
+            <div class="w-100 d-flex flex-column text-start ps-4">
+                <h5 class="d-flex justify-content-between border-bottom pb-2">
+                    <span>Grilled Tilapia</span>
+                    <span class="text-primary">Ksh 850</span>
+                </h5>
+                <small class="fst-italic">Fresh lake tilapia grilled with herbs and spices</small>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-6">
+        <div class="d-flex align-items-center">
+            <img class="flex-shrink-0 img-fluid rounded" src="img/menu-2.jpg" alt="" style="width: 80px;">
+            <div class="w-100 d-flex flex-column text-start ps-4">
+                <h5 class="d-flex justify-content-between border-bottom pb-2">
+                    <span>Nyama Choma Platter</span>
+                    <span class="text-primary">Ksh 1,200</span>
+                </h5>
+                <small class="fst-italic">Charcoal grilled beef with kachumbari and ugali</small>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-6">
+        <div class="d-flex align-items-center">
+            <img class="flex-shrink-0 img-fluid rounded" src="img/menu-3.jpg" alt="" style="width: 80px;">
+            <div class="w-100 d-flex flex-column text-start ps-4">
+                <h5 class="d-flex justify-content-between border-bottom pb-2">
+                    <span>Chicken Curry</span>
+                    <span class="text-primary">Ksh 950</span>
+                </h5>
+                <small class="fst-italic">Tender chicken in rich coconut curry sauce</small>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-6">
+        <div class="d-flex align-items-center">
+            <img class="flex-shrink-0 img-fluid rounded" src="img/menu-4.jpg" alt="" style="width: 80px;">
+            <div class="w-100 d-flex flex-column text-start ps-4">
+                <h5 class="d-flex justify-content-between border-bottom pb-2">
+                    <span>Beef Stew with Chapati</span>
+                    <span class="text-primary">Ksh 750</span>
+                </h5>
+                <small class="fst-italic">Slow-cooked beef stew served with soft chapatis</small>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-6">
+        <div class="d-flex align-items-center">
+            <img class="flex-shrink-0 img-fluid rounded" src="img/menu-5.jpg" alt="" style="width: 80px;">
+            <div class="w-100 d-flex flex-column text-start ps-4">
+                <h5 class="d-flex justify-content-between border-bottom pb-2">
+                    <span>Goat Pilau</span>
+                    <span class="text-primary">Ksh 900</span>
+                </h5>
+                <small class="fst-italic">Aromatic spiced rice with tender goat meat</small>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-6">
+        <div class="d-flex align-items-center">
+            <img class="flex-shrink-0 img-fluid rounded" src="img/menu-6.jpg" alt="" style="width: 80px;">
+            <div class="w-100 d-flex flex-column text-start ps-4">
+                <h5 class="d-flex justify-content-between border-bottom pb-2">
+                    <span>Matoke with Beef</span>
+                    <span class="text-primary">Ksh 700</span>
+                </h5>
+                <small class="fst-italic">Mashed plantains stewed with spiced beef</small>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-6">
+        <div class="d-flex align-items-center">
+            <img class="flex-shrink-0 img-fluid rounded" src="img/menu-7.jpg" alt="" style="width: 80px;">
+            <div class="w-100 d-flex flex-column text-start ps-4">
+                <h5 class="d-flex justify-content-between border-bottom pb-2">
+                    <span>Fish Fillet with Fries</span>
+                    <span class="text-primary">Ksh 800</span>
+                </h5>
+                <small class="fst-italic">Crispy fish fillet served with golden fries</small>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-6">
+        <div class="d-flex align-items-center">
+            <img class="flex-shrink-0 img-fluid rounded" src="img/menu-8.jpg" alt="" style="width: 80px;">
+            <div class="w-100 d-flex flex-column text-start ps-4">
+                <h5 class="d-flex justify-content-between border-bottom pb-2">
+                    <span>Vegetable Stir Fry</span>
+                    <span class="text-primary">Ksh 650</span>
+                </h5>
+                <small class="fst-italic">Fresh seasonal vegetables sautéed in soy and garlic</small>
+            </div>
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Menu End -->
+        
+
+            <!-- Footer Start -->
+<div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+    <div class="container py-5">
+        <div class="row g-5">
+            <!-- Company Section -->
+            <div class="col-lg-3 col-md-6">
+                <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">SG Restaurant</h4>
+                <a class="btn btn-link" href="index.html">home</a>
+                <a class="btn btn-link" href="about.html">About Us</a>
+                
+                <a class="btn btn-link" href="contact.html">Contact</a>
+                <a class="btn btn-link" href="booking.html">Reservations</a>
+                <a class="btn btn-link" href="">Privacy Policy</a>
+            </div>
+            <!-- Contact Info -->
+            <div class="col-lg-3 col-md-6">
+                <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Contact</h4>
+                <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Two Rivers Mall, Ground Floor, Nairobi</p>
+                <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+254 748 899999</p>
+                <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@sgrestaurant.com</p>
+                <div class="d-flex pt-2">
+                    <a class="btn btn-outline-light btn-social" href="https://www.facebook.com/Sgrestaurant1"><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-outline-light btn-social" href="https://www.instagram.com/savannagrillrestaurant"><i class="fab fa-instagram"></i></a>
+                    
+                </div>
+            </div>
+            <!-- Opening Hours -->
+            <div class="col-lg-3 col-md-6">
+                <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Opening Hours</h4>
+                <h5 class="text-light fw-normal">Monday - Saturday</h5>
+                <p>09:00 AM - 09:00 PM</p>
+                <h5 class="text-light fw-normal">Sunday</h5>
+                <p>10:00 AM - 08:00 PM</p>
+            </div>
+            <!-- Newsletter -->
+            <div class="col-lg-3 col-md-6">
+                <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Newsletter</h4>
+                <p>Stay updated with our latest dishes, deals, and events!</p>
+                <div class="position-relative mx-auto" style="max-width: 400px;">
+                    <input class="form-control border-primary w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
+                    <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer Bottom -->
+    <div class="container">
+        <div class="copyright">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                    &copy; <a class="border-bottom" href="#">SG Restaurant</a>, All Rights Reserved.
+                    <br>“Good Food, Good Mood.”
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <div class="footer-menu">
+                        <a href="">Home</a>
+                        <a href="">Help</a>
+                        <a href="">FAQs</a>
+                        <a href="">Terms</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Footer End -->
+
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+    </div>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
